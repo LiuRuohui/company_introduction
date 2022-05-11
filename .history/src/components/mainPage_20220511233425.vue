@@ -9,6 +9,7 @@
                     alt="公司图标"
                     class="h-20 m-4 w-40"
                 />
+                <div class="flex flex-grow bg-red-300"></div>
             </div>
             <div class="flex font-sans text-xl ml-8">
                 <router-link

@@ -1,14 +1,25 @@
-<script setup></script>
+<script setup>
+import VueEasyLightbox from "vue-easy-lightbox";
+import { reactive } from "vue";
+const img = reactive({
+    imgs: "/src/assets/logo.png",
+    visible: false,
+});
+	function handleHide() {
+		img.visible = false;
+		console.log(img.visible);
+	}
+</script>
 
 <template>
     <div class="max-h-full min-h-screen w-full flex flex-col bg-white">
         <div class="w-full h-28 flex flex-row bg-gray-100">
-            <div class="h-full flex flex-col">
-                <img
-                    src="/src/assets/logo.png"
-                    alt="公司图标"
-                    class="h-20 m-4 w-40"
-                />
+            <div class="h-full">
+                <vue-easy-lightbox
+                    :imgs="img.imgs"
+                    :visible="img.visible"
+                    @hide="handleHide"
+                ></vue-easy-lightbox>
             </div>
             <div class="flex font-sans text-xl ml-8">
                 <router-link

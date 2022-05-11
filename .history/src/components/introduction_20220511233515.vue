@@ -7,18 +7,7 @@ const intro = "“疫”心守护有限公司，新型创新创业公司，属�
         <div class="flex h-full w-1/3 shadow-md">
             <div class="m-4 w-full flex flex-col">
                 <img src="/src/assets/logo.png" class="" alt="">
-                <div class="flex flex-grow my-4">
-                    <div class="w-full m-8 flex flex-col text-lg font-sans font-bold">
-                        <div class="w-full h-32">
-                            主打产品
-                            <div class="w-full text-center mt-8">智能爬楼消毒小车</div>
-                        </div>
-                        <div class="w-full h-32">
-                            目标市场
-                             <div class="w-full text-center mt-8">医疗机构、代理商</div>
-                        </div>
-                    </div>
-                </div>
+                <div class="flex flex-grow bg-red-300"></div>
             </div>
         </div>
         <div class="flex flex-grow flex-col shadow-md w-2/3">

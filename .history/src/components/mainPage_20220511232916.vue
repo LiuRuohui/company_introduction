@@ -1,9 +1,16 @@
-<script setup></script>
+<script setup>
+import VueEasyLightbox from "vue-easy-lightbox";
+import { reactive } from "vue";
+	const img = reactive({
+		imgs: "/src/assets/logo.png",
+		visible: false,
+	});
+</script>
 
 <template>
     <div class="max-h-full min-h-screen w-full flex flex-col bg-white">
         <div class="w-full h-28 flex flex-row bg-gray-100">
-            <div class="h-full flex flex-col">
+            <div class="h-full">
                 <img
                     src="/src/assets/logo.png"
                     alt="公司图标"

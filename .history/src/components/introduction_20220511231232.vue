@@ -9,9 +9,9 @@ const intro = "“疫”心守护有限公司，新型创新创业公司，属�
         </div>
         <div class="flex flex-grow flex-col shadow-md w-2/3">
             <div class="m-4 w-full h-1/4 text-ellipsis">
-                <div class="m-8 indent-8 opacity-80 hover:opacity-100 hover:cursor-pointer font-sans text-left break-normal text-xl font-medium">{{intro}}</div>
+                <div class="m-8 font-sans text-left break-normal text-xl font-medium">{{intro}}</div>
             </div>
-            <div class="m-4 w-full flex flex-grow">
+            <div class="w-full flex flex-grow">
                 <div class="m-8">123</div>
             </div>
         </div>

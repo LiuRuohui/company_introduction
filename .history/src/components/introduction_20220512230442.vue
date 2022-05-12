@@ -6,7 +6,7 @@ const intro = "“疫”心守护有限公司，主打产品为新型的智能�
     <div class="w-full m-4 flex flex-row bg-slate-50 overflow-y-auto no-scrollbar">
         <div class="flex h-full w-1/3 shadow-md">
             <div class="m-4 w-full flex flex-col">
-                <img src="/src/assets/logo.png" class="h-64" alt="">
+                <img src="/src/assets/logo.png" class="h-72" alt="">
                 <div class="flex flex-grow my-4">
                     <div class="w-full m-8 flex flex-col text-lg font-sans font-bold">
                         <div class="w-full h-24">
@@ -23,7 +23,7 @@ const intro = "“疫”心守护有限公司，主打产品为新型的智能�
         </div>
         <div class="flex flex-grow flex-col shadow-md w-2/3">
             <div class="m-4 w-full h-1/4 text-ellipsis">
-                <div class="m-8 leading-8 indent-8 opacity-80 hover:opacity-100 hover:cursor-pointer font-sans text-left break-normal text-xl font-medium">{{intro}}</div>
+                <div class="m-8 indent-8 opacity-80 hover:opacity-100 hover:cursor-pointer font-sans text-left break-normal text-xl font-medium">{{intro}}</div>
             </div>
             <div class="m-4 w-full flex flex-grow">
                 <div class="m-8">123</div>

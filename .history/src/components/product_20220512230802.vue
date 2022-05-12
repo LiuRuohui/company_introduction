@@ -27,7 +27,7 @@ const intro = "本公司的智能爬楼消毒小车主要用到的材料有PLA+�
                 <div class="m-8 indent-8 opacity-80 hover:opacity-100 hover:cursor-pointer font-sans text-left break-normal text-xl font-medium">{{intro}}</div>
             </div>
             <div class="m-4 w-full flex flex-grow">
-                <div class="m-8 font-bold">产品结构展示</div>
+                <div class="m-8">产品结构展示</div>
             </div>
         </div>
     </div>

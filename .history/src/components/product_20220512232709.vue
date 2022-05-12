@@ -37,11 +37,11 @@ const intro = "本公司的智能爬楼消毒小车主要用到的材料有PLA+�
                         <div class="text-center font-semibold">机械臂</div>
                         <img src="/src/assets/machineHand.png" alt="机械臂照片" class="h-48">
                     </div>
-                    <div class="flex flex-col mx-4 border-2">
+                    <div class="flex flex-col mx-4">
                         <div class="text-center font-semibold">喷壶</div>
                         <img src="/src/assets/container.png" alt="喷壶照片" class="h-48 w-60">
                     </div>
-                    <div class="flex flex-col mx-4 border-2">
+                    <div class="flex flex-col mx-4">
                         <div class="text-center font-semibold">行星轮系</div>
                         <img src="/src/assets/wheel.png" alt="行星轮系照片" class="h-48 w-60">
                     </div>

@@ -28,7 +28,7 @@ const intro = "“疫”心守护有限公司，主打产品为新型的智能�
             <div class="m-4 w-full flex flex-grow flex-row">
                 <div class="m-6 font-bold">
                     公司组织架构
-                    <img src="/src/assets/structure.png" alt="公司组织架构图" class="h-72 w-full">
+                    <img src="/src/assets/structure.png" alt="公司组织架构图" class="m-4">
                 </div>
                 <div></div>
             </div>

@@ -6,17 +6,16 @@ const intro = "本公司的智能爬楼消毒小车主要用到的材料有PLA+�
     <div class="w-full m-4 flex flex-row bg-slate-50 overflow-y-auto no-scrollbar">
         <div class="flex h-full w-1/3 shadow-md">
             <div class="m-4 w-full flex flex-col">
-                <img src="/src/assets/car.png" class="h-64" alt="">
+                <img src="/src/assets/car.png" class="h-72" alt="">
                 <div class="flex flex-grow my-4">
                     <div class="w-full m-8 flex flex-col text-lg font-sans font-bold">
                         <div class="w-full h-24">
                             产品名
                             <div class="w-full text-center mt-4">楼道"B细胞"--智能爬楼消毒小车</div>
                         </div>
-                        <div class="w-full">
-                            适用范围
-                             <div class="w-full text-center mt-4">含有电梯的单元楼</div>
-                             <div class="w-full text-center mt-4">封闭的公共场所</div>
+                        <div class="w-full h-24">
+                            产品简介
+                             <div class="w-full text-center mt-4">医疗机构、代理商</div>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-    <div class="min-h-screen w-full flex flex-col bg-white">
+    <div class=" w-full flex flex-col bg-white">
         <div class="w-full h-28 flex flex-row bg-gray-100">
             <div class="h-full flex flex-col">
                 <img
